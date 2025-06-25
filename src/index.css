@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(135deg, rgba(251,210,196,0.3) 0%, rgba(251,210,196,0.1) 100%);
+}
+
+.profile-img {
+  box-shadow: 0 10px 25px -5px rgba(198, 5, 245, 0.2);
+}
+
+.link-card {
+  transition: all 0.3s ease;
+}
+
+.link-card:hover {
+  transform: translateY(-5px);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #c605f5 0%, rgba(181,71,183,255) 100%);
+}
+
+.gradient-bg-secondary {
+  background: linear-gradient(135deg, rgb(37, 150, 190) 0%, rgb(67, 170, 210) 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #c605f5 0%, rgba(149,20,251,255) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
