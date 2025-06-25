@@ -39,7 +39,7 @@ const ContactForm = () => {
     }
 
     const numeroWhatsApp = "5585988518720"; // Coloque seu número aqui (formato internacional)
-    const texto = `Olá, quero agendar uma consulta:
+    const texto = `Olá, quero agendar uma avaliação:
 Nome: ${name}
 Email: ${email}
 Telefone: ${phone}
@@ -77,12 +77,12 @@ Mensagem: ${message}`;
 
   return (
     <div
-      id="consulta"
+      id="avaliacao"
       className="w-full rounded-2xl shadow-lg p-6 mb-8"
       style={{ backgroundColor: "rgba(251,210,196,0.2)" }}
     >
       <h3 className="text-xl font-bold mb-4 text-center gradient-text">
-        Agende uma Consulta
+        Agende uma Avaliação
       </h3>
       <form className="space-y-4" onSubmit={handleSubmit}>
         <div>
