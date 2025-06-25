@@ -1,7 +1,7 @@
 const LpfSection = () => {
   return (
     <div id="lpf" className="w-full bg-white rounded-2xl shadow-lg p-6 mb-8">
-      <h3 className="text-xl font-bold mb-4 text-secondary text-center mb-8">
+      <h3 className="text-xl font-bold text-secondary text-center mb-8">
         Low Pressure Fitness (LPF)
       </h3>
       <div className="flex flex-col md:flex-row gap-6">
@@ -79,7 +79,7 @@ const LpfSection = () => {
             style={{ backgroundColor: "rgba(37, 150, 190, 0.1)" }}
           >
             <video
-              src="/lpf_2.mp4"
+              src={`${import.meta.env.BASE_URL}lpf_2.mp4`}
               autoPlay
               muted
               loop

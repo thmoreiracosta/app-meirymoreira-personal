@@ -5,10 +5,10 @@ const ProfileSection = () => {
         className="w-32 h-32 rounded-full overflow-hidden profile-img mb-4"
         //style={{background: "linear-gradient(135deg, #c605f5 0%, rgba(149,20,251,255) 100%)"}}
       >
-        <a href="https://thmoreiracosta.github.io/app-meirymoreira-personal/">
+        <a href="{`${import.meta.env.BASE_URL}`}">
           <img
             className="w-full h-full text-white opacity-80"
-            src="/my-photo.jpg"
+            src={`${import.meta.env.BASE_URL}my-photo.jpg`}
             alt="meiry-moreira-personal-trainer"
           />
         </a>

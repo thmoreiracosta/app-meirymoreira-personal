@@ -14,7 +14,7 @@ const ProgramSection = () => {
             style={{ backgroundColor: "rgba(251,210,196,0.3)" }}
           >
             <video
-              src="/lpf.mp4"
+              src={`${import.meta.env.BASE_URL}lpf.mp4`}
               autoPlay
               muted
               loop
